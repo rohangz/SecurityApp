@@ -1,4 +1,6 @@
 package com.rmehrotra.securityapp.entry.routes
 
-class EntryRoutes {
+sealed class EntryRoutes(val route: String) {
+    object Authentication : EntryRoutes("authentication")
+    object Home : EntryRoutes("home")
 }

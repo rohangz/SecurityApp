@@ -1,4 +1,4 @@
-package com.rmehrotra.securityapp.koin
+package com.rmehrotra.securityapp.entry.koin
 
 import com.rmehrotra.securityapp.authentication.koin.authAppModule
 import org.koin.core.context.startKoin

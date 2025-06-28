@@ -1,4 +1,6 @@
 package com.rmehrotra.securityapp.authentication.routes
 
-class AuthRoutes {
+sealed class AuthRoutes(val route: String) {
+    object Login : AuthRoutes("login")
+    object SignUp : AuthRoutes("signup")
 }
